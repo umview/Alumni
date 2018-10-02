@@ -5,6 +5,6 @@
 $hostname_dbconnect = "localhost";
 $database_dbconnect = "alumni";
 $username_dbconnect = "root";
-$password_dbconnect = "@dgIoHi-mysql";
+$password_dbconnect = "xxx";
 $dbconnect = mysql_pconnect($hostname_dbconnect, $username_dbconnect, $password_dbconnect) or trigger_error(mysql_error(),E_USER_ERROR); 
 ?>
